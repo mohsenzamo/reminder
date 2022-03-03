@@ -7,9 +7,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="bg-orange-600">{{ msg }}</h1>
 
-  <p>
+  <p class="bg-orange-600">
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
